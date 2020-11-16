@@ -29,8 +29,8 @@ class ChatApp {
     });
     socket.registerMessageHandler((data) => {
       console.log(data); 
-      // let message = new ChatMessage(data);
-      let message = new ChatMessage({message: data});
+      let message = new ChatMessage(data);
+      // let message = new ChatMessage({message: data});
       this.chatList.drawMessage(message.serialize());
     });
   }

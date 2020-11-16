@@ -66,10 +66,10 @@ export class ChatList {
             src: createGravatarUrl(u),
             title: u
         });
-
+        
         $messageRow.append($img);
         $messageRow.append($message);
-        //$(this.listId).append($messageRow);
+        // $(this.listId).append($messageRow);
         this.$list.append($messageRow);
         $messageRow.get(0).scrollIntoView();
     }

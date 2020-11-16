@@ -20,7 +20,7 @@
   },
   "devDependencies": {
     "crypto-js": "^4.0.0",
-    "jquery": "file:node_modules/jquery",
+    "jquery": "^3.5.1",
     "moment": "^2.29.1",
     "nodemon": "^2.0.6"
   },
